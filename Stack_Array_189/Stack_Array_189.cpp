@@ -12,4 +12,18 @@ public:
 	StackArray() {
 		top = -1;
 	}
+	void push() {
+		cout << "\nEnter an Element: ";
+		int element;
+		cin >> element;
+		if (top == 4) { //step 1
+			cout << "Number of data exceeds the limit." << endl;
+			return;
+		}
 
+		top++;
+		stack_array[top] = element; //step3
+		cout << endl;
+		cout << element << "ditambahkan(pushed)" << endl;
+
+	}
