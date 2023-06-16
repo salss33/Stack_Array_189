@@ -27,3 +27,4 @@ public:
 		cout << element << "ditambahkan(pushed)" << endl;
 
 	}
+
